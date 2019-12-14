@@ -1,1 +1,1 @@
-# Udacity aipnd - Image Classifier Graduation Project
+# Udacity-aipnd - Image Classifier Graduation Project
