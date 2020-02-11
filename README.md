@@ -19,12 +19,12 @@ By the end of this project you'll deal with **a user-friendly command line appli
     $ conda create --name <env> --file req.txt
     ```
 2. If you don't, here are the required packages
-    * cudatoolkit==8.0
-    * numpy==1.13.3
-    * pandas==0.22.0
-    * python==3.6.9
-    * pytorch==0.4.0
-    * torchvision==0.2.1
+    * `cudatoolkit==8.0`
+    * `numpy==1.13.3`
+    * `pandas==0.22.0`
+    * `python==3.6.9`
+    * `pytorch==0.4.0`
+    * `torchvision==0.2.1`
     
      First make sure you've tha lastest pip version by the command:
      ```
