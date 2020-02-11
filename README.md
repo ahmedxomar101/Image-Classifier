@@ -56,19 +56,18 @@ In order to avoid rendering problems you could check it out in [nbviewer](https:
 ### Training
 You would use **`train.py`** file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
 
-Required Arguments
+**Required Arguments**
 * `data_dir` >>> directory path of the datsets
 
-Optional Arguments
-* `s` or `save_dir`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;directory path to save the Trained Model inside it
-* `a` or `arch`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing a CNN Model Architecture -- Default = vgg19
-* `l` or `learning_rate`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing a learning rate for DNN -- Default = 0.0001
-* `hidden_units`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setting number of the hidden units of the hidden layers >>> Must be integers -- Default = 1024'
-* `d` or `drop_prob`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setting number of drop probabilities of the hidden units of the hidden layers -- Default = 0.2
-* `e` or `epochs`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing number of model trainings (epochs) >>> Must be integer -- Default = 20
-* `g` or `gpu`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing GPU for training or inference
+**Optional Arguments**
+* `s` or `save_dir` ---> directory path to save the Trained Model inside it
+* `a` or `arch` ---> choosing a CNN Model Architecture -- Default = vgg19
+* `l` or `learning_rate` ---> choosing a learning rate for DNN -- Default = 0.0001
+* `hidden_units` ---> setting number of the hidden units of the hidden layers >>> Must be integers -- Default = 1024'
+* `d` or `drop_prob` ---> setting number of drop probabilities of the hidden units of the hidden layers -- Default = 0.2
+* `e` or `epochs` ---> choosing number of model trainings (epochs) >>> Must be integer -- Default = 20
+* `g` or `gpu` ---> choosing GPU for training or inference
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will appear with six space characters in front of it
 
 Basic Usage: 
 ```
