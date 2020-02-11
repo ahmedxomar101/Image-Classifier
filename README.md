@@ -56,25 +56,45 @@ In order to avoid rendering problems you could check it out in [nbviewer](https:
 ### Training
 You would use **`train.py`** file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
 
-**Required Arguments**
-* `data_dir` >>> directory path of the datsets
+* **Required Arguments**
+    * `data_dir` >>> directory path of the datsets
 
-**Optional Arguments**
-* `s` or `save_dir` ---> directory path to save the Trained Model inside it
-* `a` or `arch` ---> choosing a CNN Model Architecture -- Default = vgg19
-* `l` or `learning_rate` ---> choosing a learning rate for DNN -- Default = 0.0001
-* `hidden_units` ---> setting number of the hidden units of the hidden layers >>> Must be integers -- Default = 1024'
-* `d` or `drop_prob` ---> setting number of drop probabilities of the hidden units of the hidden layers -- Default = 0.2
-* `e` or `epochs` ---> choosing number of model trainings (epochs) >>> Must be integer -- Default = 20
-* `g` or `gpu` ---> choosing GPU for training or inference
-
-
-Basic Usage: 
+* **Optional Arguments**
+    * `s` or `save_dir` ---> directory path to save the Trained Model inside it. -- Default = Same Dir
+    * `a` or `arch` ---> choosing a CNN Model Architecture. -- Default = vgg19
+    * `l` or `learning_rate` ---> choosing a learning rate for DNN. -- Default = 0.0001
+    * `hidden_units` ---> setting number of the hidden units of the hidden layers (Must be integers). -- Default = 1024
+    * `d` or `drop_prob` ---> drop probability of the hidden units of the hidden layers. -- Default = 0.2
+    * `e` or `epochs` ---> choosing number of model trainings (Must be integer). -- Default = 20
+    * `g` or `gpu` ---> choosing GPU for training or inference.
+* **Basic Usage**
 ```
+    python train.py datasets_directory
+```
+* **Other Examples**
+```
+    python train.py datasets_directory -s checkpoints_directory --arch vgg16
+    python train.py datasets_directory -l 0.001 --hidden_units 2048 512
+    python train.py datasets_directory -d 0.1 -e 10 -g
+```
+* **Supported CNN Architectures**
 
-
-
-
+    | Component |
+    | ---- |
+    | AlexNet |
+    | VGG11 |
+    | VGG13 |
+    | VGG16 |
+    | VGG19 |
+    | ResNet18 |
+    | ResNet34 |
+    | ResNet50 |
+    | ResNet101 |
+    | ResNet152 |
+    | DenseNet121 |
+    | DenseNet161 |
+    | DenseNet169 |
+    | DenseNet201 |
 
 
 
