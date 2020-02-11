@@ -43,3 +43,36 @@ By the end of this project you'll deal with **a user-friendly command line appli
     ```
     pip install cudatoolkit==8.0 -c pytorch
     ```
+
+## 1. Jupyter Notebook
+In order to avoid rendering problems you could clone
+
+## 2. Command Line Application
+1. Training
+2. Prdiction
+
+### Training
+You would use this file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
+
+Basic Usage: 
+```
+
+
+
+
+
+
+
+The predict.py script successfully reads in an image and a
+checkpoint then prints the most likely image class and it's
+associated probability
+
+
+## Instructions
+1. All files must be at the same directory.
+2. In case of Training: 
+                        
+        - the data set must be labeled and divided in folders where each folder is named by its class number.
+        - Example:  flowers\train\52\image_04221.jpg
+                    Image Name: image_04221.jpg             Class Number: 52            Dataset of: Training
+2.
