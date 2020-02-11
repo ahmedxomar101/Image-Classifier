@@ -79,22 +79,22 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
 ```
 * **Supported CNN Architectures**
 
-    | Component |
+    | Architectures |
     | ---- |
-    | AlexNet |
-    | VGG11 |
-    | VGG13 |
-    | VGG16 |
-    | VGG19 |
-    | ResNet18 |
-    | ResNet34 |
-    | ResNet50 |
-    | ResNet101 |
-    | ResNet152 |
-    | DenseNet121 |
-    | DenseNet161 |
-    | DenseNet169 |
-    | DenseNet201 |
+    | [AlexNet](https://arxiv.org/abs/1404.5997) |
+    | [VGG11](https://arxiv.org/pdf/1409.1556.pdf) |
+    | [VGG13](https://arxiv.org/pdf/1409.1556.pdf) |
+    | [VGG16](https://arxiv.org/pdf/1409.1556.pdf) |
+    | [VGG19](https://arxiv.org/pdf/1409.1556.pdf) |
+    | [ResNet18](https://arxiv.org/pdf/1512.03385.pdf) |
+    | [ResNet34](https://arxiv.org/pdf/1512.03385.pdf) |
+    | [ResNet50](https://arxiv.org/pdf/1512.03385.pdf) |
+    | [ResNet101](https://arxiv.org/pdf/1512.03385.pdf) |
+    | [ResNet152](https://arxiv.org/pdf/1512.03385.pdf) |
+    | [DenseNet121](https://arxiv.org/pdf/1608.06993.pdf) |
+    | [DenseNet161](https://arxiv.org/pdf/1608.06993.pdf) |
+    | [DenseNet169](https://arxiv.org/pdf/1608.06993.pdf) |
+    | [DenseNet201](https://arxiv.org/pdf/1608.06993.pdf) |
 
 
 
