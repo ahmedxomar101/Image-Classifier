@@ -45,14 +45,30 @@ By the end of this project you'll deal with **a user-friendly command line appli
     ```
 
 ## 1. Jupyter Notebook
-In order to avoid rendering problems you could clone
+In order to avoid rendering problems you could check it out in [nbviewer](https://nbviewer.jupyter.org/github/AhMeDxHaMiDo/Image-Classifier/blob/AhMeDxHaMiDo-patch-1/Image-Classifier-Project.ipynb).
+
+# That would change
 
 ## 2. Command Line Application
-1. Training
-2. Prdiction
+* Training
+* Prdiction
 
 ### Training
-You would use this file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
+You would use **`train.py`** file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
+
+Required Arguments
+* `data_dir` >>> directory path of the datsets
+
+Optional Arguments
+* `s` or `save_dir`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;directory path to save the Trained Model inside it
+* `a` or `arch`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing a CNN Model Architecture -- Default = vgg19
+* `l` or `learning_rate`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing a learning rate for DNN -- Default = 0.0001
+* `hidden_units`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setting number of the hidden units of the hidden layers >>> Must be integers -- Default = 1024'
+* `d` or `drop_prob`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;setting number of drop probabilities of the hidden units of the hidden layers -- Default = 0.2
+* `e` or `epochs`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing number of model trainings (epochs) >>> Must be integer -- Default = 20
+* `g` or `gpu`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;choosing GPU for training or inference
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This will appear with six space characters in front of it
 
 Basic Usage: 
 ```
