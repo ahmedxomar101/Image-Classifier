@@ -39,3 +39,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
     ```
     conda install cudatoolkit=8.0 -c pytorch
     ```
+    or
+    ```
+    pip install cudatoolkit==8.0 -c pytorch
+    ```
