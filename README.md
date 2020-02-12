@@ -1,3 +1,5 @@
+# EDITING STILL IN PROGRESS
+
 # Image-Classifier
 Training an Image Classifier in PyTorch framework by using Transfer Learning with Pre-Trained CNN Model Architectures
 
@@ -46,8 +48,6 @@ By the end of this project you'll deal with **a user-friendly command line appli
 
 ## 1. Jupyter Notebook
 In order to avoid rendering problems you could check it out in [nbviewer](https://nbviewer.jupyter.org/github/AhMeDxHaMiDo/Image-Classifier/blob/AhMeDxHaMiDo-patch-1/Image-Classifier-Project.ipynb).
-
-# That would change
 
 ## 2. Command Line Application
 * Training
@@ -101,50 +101,3 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
         * Ex: Epoch: 8/8..  Training Loss: 0.599..  Validation Loss: 0.782..  Validation Accuracy: 0.809
     * After Training: A checkpoint that contains the trained DNN wights, biases, and hyper parameters.
         * Ex :resnet18.pth
-
-### Prediction
-You would use **`train.py`** file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
-    
-JSONNNNNNNNNNNN
-
-The predict.py script successfully reads in an image and a
-checkpoint then prints the most likely image class and it's
-associated probability
-
-* **Required Arguments**
-    * `data_dir` >>> directory path of the datsets
-
-* **Optional Arguments**
-    * `s` or `save_dir` ---> directory path to save the Trained Model inside it. -- Default = Same Dir
-    * `a` or `arch` ---> choosing a CNN Model Architecture. -- Default = vgg19
-    * `l` or `learning_rate` ---> choosing a learning rate for DNN. -- Default = 0.0001
-    * `hidden_units` ---> setting number of the hidden units of the hidden layers (Must be integers). -- Default = 1024
-    * `d` or `drop_prob` ---> drop probability of the hidden units of the hidden layers. -- Default = 0.2
-    * `e` or `epochs` ---> choosing number of model trainings (Must be integer). -- Default = 20
-    * `g` or `gpu` ---> choosing GPU for training or inference.
-* **Basic Usage**
-```
-    python train.py datasets_directory
-```
-* **Other Examples**
-```
-    python train.py datasets_directory -s checkpoints_directory --arch vgg16
-    python train.py datasets_directory -l 0.001 --hidden_units 2048 512
-    python train.py datasets_directory -d 0.1 -e 10 -g
-```
-
-* **Output**
-    A checkpoint that contains the trained DNN wights, biases, and hyper parameters.
-
-
-
-
-
-## Instructions
-1. All files must be at the same directory.
-2. In case of Training: 
-                        
-        - the data set must be labeled and divided in folders where each folder is named by its class number.
-        - Example:  flowers\train\52\image_04221.jpg
-                    Image Name: image_04221.jpg             Class Number: 52            Dataset of: Training
-2.
