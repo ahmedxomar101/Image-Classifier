@@ -174,7 +174,8 @@ You would use **`predict.py`** file to predict the class of an image using the c
     ```
 
 * **Output**
-Printing the most likely image class and it's associated probability.
+
+    Printing the most likely image class and it's associated probability.
 
 ## References
 * [CS231n Convolutional Neural Networks for Visual Recognition - Transfer Learning](http://cs231n.github.io/transfer-learning/)
