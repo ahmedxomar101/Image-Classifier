@@ -110,7 +110,7 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
     ```
     python train.py datasets_directory
     ```
-    * **Other Examples**
+* **Other Examples**
     ```
     python train.py datasets_directory -s checkpoints_directory --arch vgg16
     ```
@@ -162,7 +162,7 @@ You would use **`predict.py`** file to predict the class of an image using the c
     ```
     python predict.py input_image_path checkpoint
     ```
-    * **Other Examples**
+* **Other Examples**
     ```
     python predict.py input_image_path checkpoint -g --top_k 3
     ```
