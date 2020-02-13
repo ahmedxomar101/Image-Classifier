@@ -172,6 +172,6 @@ Printing the most likely image class and it's associated probability.
 ![alt text](AIPND-Certificate.jpg)
 
 ## License
-[**MIT**](https://choosealicense.com/licenses/mit/)
+[**MIT License**](https://choosealicense.com/licenses/mit/)
 
 ***Inspired by Udacity AI Programming with Python Nanodgree***
