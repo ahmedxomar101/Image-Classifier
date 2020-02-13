@@ -63,7 +63,7 @@ You could work on the flowers dataset or any other one but note that the dataset
     + Dataset of: Validation
 
 ### 3. Label Mapping
-You'll also need to load in a mapping from category label to category name. You can find this in the file cat_to_name.json in case of usinf flowers dataset. It's a JSON object which you can read in with the json module. This will give you a dictionary mapping the integer encoded categories to the actual names of the flowers.
+You'll also need to load in a mapping from category label to category name. You can find this in the file cat_to_name.json in case of using flowers dataset. It's a JSON object which you can read in with the json [module](https://www.json.org/json-en.html). This will give you a dictionary mapping the integer encoded categories to the actual names of the flowers.
 
 ## 1. Jupyter Notebook
 In order to avoid rendering problems you could check it out in [nbviewer](https://nbviewer.jupyter.org/github/AhMeDxHaMiDo/Image-Classifier/blob/AhMeDxHaMiDo-patch-1/Image-Classifier-Project.ipynb).
@@ -159,8 +159,19 @@ You would use **`predict.py`** file to predict the class of an image using the c
 * **Output**
 Printing the most likely image class and it's associated probability.
 
+## Refrences
+* [CS231n Convolutional Neural Networks for Visual Recognition - Transfer Learning](http://cs231n.github.io/transfer-learning/)
+* [PYTORCH TUTORIAL - TRANSFER LEARNING FOR COMPUTER VISION](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
+* [PYTORCH TUTORIAL - FINETUNING TORCHVISION MODELS](https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html)
+* [Udacity - Frequently Asked Questions for Classifying Images Project](https://github.com/udacity/AIPND-revision/blob/master/notes/project_intro-to-python.md)
+
+## Author
+* **Ahmed Hamido**
+    * [LinkedIn](https://www.linkedin.com/in/ahmedxhamido/)
+* **Certificate**
+![alt text](AIPND-Certificate.jpg)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[**MIT**](https://choosealicense.com/licenses/mit/)
 
-*Inspired by Udacity AI Programming with Python Nanodgree*
+***Inspired by Udacity AI Programming with Python Nanodgree***
