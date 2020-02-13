@@ -186,7 +186,7 @@ Printing the most likely image class and it's associated probability.
 * **Ahmed Hamido**
     * [LinkedIn](https://www.linkedin.com/in/ahmedxhamido/)
 * **Certificate**
-![alt text](AIPND-Certificate.jpg)
+![alt text](assets/AIPND-Certificate.jpg)
 
 ## License
 [**MIT License**](https://choosealicense.com/licenses/mit/)
