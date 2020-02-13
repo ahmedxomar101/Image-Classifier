@@ -131,15 +131,6 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
 
 ### Prediction
 You would use **`predict.py`** file to predict the class of an image using the checkpoint of any saved model, and the probability of the top most likely classes.
-    
-
-- Predict flower name from an image with **predict.py** along with the probability of that name. That is you'll pass in a single image /path/to/image and return the flower name and class probability
-  - Basic usage: ```python predict.py /path/to/image checkpoint```
-  - Options:
-    - Return top K most likely classes: ```python predict.py input checkpoint ---top_k 3```
-    - Use a mapping of categories to real names: ```python predict.py input checkpoint --category_names cat_To_name.json```
-    - Use GPU for inference: ```python predict.py input checkpoint --gpu```
-
 
 * **Required Arguments**
     * `input` ---> path of the flower that you want to predict its label.
