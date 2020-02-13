@@ -1,5 +1,5 @@
 # Image-Classifier
-Training an Image Classifier in PyTorch framework by using Transfer Learning with Pre-Trained CNN Model Architectures
+**Training an Image Classifier in PyTorch framework by using Transfer Learning with Pre-Trained CNN Model Architectures**
 
 # Table of Content
 
