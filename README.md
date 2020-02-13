@@ -81,10 +81,10 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
     * `data_dir` ---> directory path of the datsets.
 
 * **Optional Arguments**
-    * `-s` or `--save_dir` ---> directory path to save the Trained Model inside it. -- Default = Same Dir
+    * `-s` or `--save_dir` ---> directory path to save the Trained Model inside it. -- Default = work directory
     * `-a` or `--arch` ---> choosing a CNN Model Architecture. -- Default = vgg19
     * `-l` or `--learning_rate` ---> choosing a learning rate for DNN. -- Default = 0.0001
-    * `--hidden_units` ---> setting number of the hidden units of the hidden layers (Must be integers). -- Default = 1024
+    * `--hidden_units` ---> number of hidden units of hidden layers (Must be integers). -- Default = 1024
     * `-d` or `--drop_prob` ---> drop probability of the hidden units of the hidden layers. -- Default = 0.2
     * `-e` or `--epochs` ---> choosing number of model trainings (Must be integer). -- Default = 20
     * `-g` or `--gpu` ---> choosing GPU for training or inference.
