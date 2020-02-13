@@ -1,5 +1,5 @@
 # Image-Classifier
-Training an Image Classifier in **PyTorch** framework by using **Transfer Learning** with Pre-Trained **CNN** Model Architectures
+Training an Image Classifier in **PyTorch** framework by using **Transfer Learning** with Pre-Trained **CNN** Model Architectures.
 
 # Table of Content
 
@@ -13,7 +13,7 @@ Training an Image Classifier in **PyTorch** framework by using **Transfer Learni
     2. [Command Line Application](#command-line-application)
         1. [Training](#training)
         2. [Prediction](#prediction)
-4. [Refrences](#refrences)
+4. [References](#references)
 5. [Author](#author)
 6. [License](#license)
 
@@ -35,7 +35,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
     ```
     $ conda create --name <env> --file req.txt
     ```
-2. If you don't, here are the required packages
+2. If you don't, here are the required packages:
     * `cudatoolkit==8.0`
     * `numpy==1.13.3`
     * `pandas==0.22.0`
@@ -44,7 +44,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
     * `torchvision==0.2.1`
     * `Image`
     
-     First make sure you've tha lastest pip version by the command:
+     First make sure you've the latest pip version by the command:
      ```
      python -m pip install --upgrade pip
      ```
@@ -95,7 +95,7 @@ In order to avoid rendering problems you could check it out in [nbviewer](https:
 You would use **`train.py`** file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
 
 * **Required Arguments**
-    * `data_dir` ---> directory path of the datsets.
+    * `data_dir` ---> directory path of the datasets.
 
 * **Optional Arguments**
     * `-s` or `--save_dir` ---> directory path to save the Trained Model inside it. -- Default = work directory
@@ -147,7 +147,7 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
         * Ex :resnet18.pth
 
 ### Prediction
-You would use **`predict.py`** file to predict the class of an image using the checkpoint of any saved model, and the probability of the top most likely classes.
+You would use **`predict.py`** file to predict the class of an image using the checkpoint of any saved model, and the probability of the topmost likely classes.
 
 * **Required Arguments**
     * `input` ---> path of the flower that you want to predict its label.
@@ -155,7 +155,7 @@ You would use **`predict.py`** file to predict the class of an image using the c
 
 * **Optional Arguments**
     * `-k` or `--top_k` ---> choosing top K most likely classes. -- Default = 1
-    * `-c` or `--category_names` ---> choosing a mapping of categories to real names
+    * `-c` or `--category_names` ---> choosing a mapping of categories to real names.
     * `-g` or `--gpu` ---> choosing GPU for training or inference.
 
 * **Basic Usage**
@@ -176,7 +176,7 @@ You would use **`predict.py`** file to predict the class of an image using the c
 * **Output**
 Printing the most likely image class and it's associated probability.
 
-## Refrences
+## References
 * [CS231n Convolutional Neural Networks for Visual Recognition - Transfer Learning](http://cs231n.github.io/transfer-learning/)
 * [PYTORCH TUTORIAL - TRANSFER LEARNING FOR COMPUTER VISION](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
 * [PYTORCH TUTORIAL - FINETUNING TORCHVISION MODELS](https://pytorch.org/tutorials/beginner/finetuning_torchvision_models_tutorial.html)
@@ -191,4 +191,4 @@ Printing the most likely image class and it's associated probability.
 ## License
 [**MIT License**](https://choosealicense.com/licenses/mit/)
 
-***Inspired by Udacity AI Programming with Python Nanodgree***
+***Inspired by Udacity AI Programming with Python Nanodegree***.
