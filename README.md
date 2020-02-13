@@ -1,6 +1,22 @@
 # Image-Classifier
 Training an Image Classifier in PyTorch framework by using Transfer Learning with Pre-Trained CNN Model Architectures
 
+# Table of Content
+
+1. [Introduction](#introduction)
+2. [Prerequisites](#prerequisites)
+    1. [Environment](#environment)
+    2. [Data Pre-Processing](#data-pre-processing)
+    3. [Label Mapping](#label-mapping)
+3. [Application](#application)
+    1. [Jupyter Notebook](#jupyter-notebook)
+    2. [Command Line Application](#command-line-application)
+        1. [Training](#training)
+        2. [Prediction](#prediction)
+4. [Refrences](#refrences)
+5. [Author](#author)
+6. [License](#license)
+
 ## Introduction
 This repo consisting of 2 main parts:
 1. Jupyter Notebook that includes training, testing and inference.
@@ -14,7 +30,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
 
 ## Prerequisites
 
-### 1. Environment
+### Environment
 1. If you use Anaconda, you could create an environment with all required packages directly from `req.txt` by using the command:
     ```
     $ conda create --name <env> --file req.txt
@@ -45,7 +61,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
     ```
     pip install cudatoolkit==8.0 -c pytorch
     ```
-### 2. Data Pre-Processing
+### Data Pre-Processing
 You could work on the flowers dataset or any other one but note that the dataset must be labeled and divided in folders where each folder is named by its class number.
 
 **Example**
@@ -62,17 +78,18 @@ You could work on the flowers dataset or any other one but note that the dataset
     + Class Number: 1
     + Dataset of: Validation
 
-### 3. Label Mapping
+### Label Mapping
 You'll also need to load in a mapping from category label to category name. You can find this in the file cat_to_name.json in case of using flowers dataset. It's a JSON object which you can read in with the json [module](https://www.json.org/json-en.html). This will give you a dictionary mapping the integer encoded categories to the actual names of the flowers.
 
-## 1. Jupyter Notebook
+## Application
+### Jupyter Notebook
 In order to avoid rendering problems you could check it out in [nbviewer](https://nbviewer.jupyter.org/github/AhMeDxHaMiDo/Image-Classifier/blob/AhMeDxHaMiDo-patch-1/Image-Classifier-Project.ipynb).
 
 # That would change
 
-## 2. Command Line Application
+### Command Line Application
 * Training
-* Prdiction
+* Prediction
 
 ### Training
 You would use **`train.py`** file to train a new Deep Neural Network on a dataset of images and saves the model to a checkpoint.
