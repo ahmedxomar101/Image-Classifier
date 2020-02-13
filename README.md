@@ -83,9 +83,7 @@ You'll also need to load in a mapping from category label to category name. You 
 
 ## Application
 ### Jupyter Notebook
-In order to avoid rendering problems you could check it out in [nbviewer](https://nbviewer.jupyter.org/github/AhMeDxHaMiDo/Image-Classifier/blob/AhMeDxHaMiDo-patch-1/Image-Classifier-Project.ipynb).
-
-# That would change
+In order to avoid rendering problems you could check it out in [nbviewer](https://nbviewer.jupyter.org/github/AhMeDxHaMiDo/Image-Classifier/blob/master/Image-Classifier-Project.ipynb).
 
 ### Command Line Application
 * Training
