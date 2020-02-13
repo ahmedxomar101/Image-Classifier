@@ -142,7 +142,7 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
     * While Training: Printing out current epoch, training loss, validation loss, and validation accuracy.
         * Ex: Epoch: 8/8..  Training Loss: 0.599..  Validation Loss: 0.782..  Validation Accuracy: 0.809
     * After Training: A checkpoint that contains the trained DNN wights, biases, and hyper parameters.
-        * Ex :resnet18.pth
+        * Ex: resnet18.pth
 
 ### Prediction
 You would use **`predict.py`** file to predict the class of an image using the checkpoint of any saved model, and the probability of the topmost likely classes.
