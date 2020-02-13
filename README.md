@@ -107,19 +107,19 @@ You would use **`train.py`** file to train a new Deep Neural Network on a datase
     * `-g` or `--gpu` ---> choosing GPU for training or inference.
 
 * **Basic Usage**
-```
+    ```
     python train.py datasets_directory
-```
-* **Other Examples**
-```
+    ```
+    * **Other Examples**
+    ```
     python train.py datasets_directory -s checkpoints_directory --arch vgg16
-```
-```
+    ```
+    ```
     python train.py datasets_directory -l 0.001 --hidden_units 2048 512
-```
-```
+    ```
+    ```
     python train.py datasets_directory -d 0.1 -e 10 -g
-```
+    ```
 
 * **Supported CNN Architectures**
 
@@ -159,19 +159,19 @@ You would use **`predict.py`** file to predict the class of an image using the c
     * `-g` or `--gpu` ---> choosing GPU for training or inference.
 
 * **Basic Usage**
-```
+    ```
     python predict.py input_image_path checkpoint
-```
-* **Other Examples**
-```
+    ```
+    * **Other Examples**
+    ```
     python predict.py input_image_path checkpoint -g --top_k 3
-```
-```
+    ```
+    ```
     python predict.py input_image_path checkpoint --category_names cat_To_name.json
-```
-```
+    ```
+    ```
     python predict.py input_image_path checkpoint -g -c cat_To_name.json -k 3
-```
+    ```
 
 * **Output**
 Printing the most likely image class and it's associated probability.
