@@ -62,7 +62,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
     pip install cudatoolkit==8.0 -c pytorch
     ```
 ### Data Pre-Processing
-You could work on the flowers dataset or any other one but note that the dataset must be labeled and divided in folders where each folder is named by its class number.
+You could work on the [flowers dataset](https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz) or any other one but note that the dataset must be labeled and divided in folders where each folder is named by its class number.
 
 **Example**
 
