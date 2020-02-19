@@ -1,0 +1,11 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+
+cudatoolkit=8.0
+numpy=1.13.3
+pandas=0.22.0
+python=3.6.9
+pytorch=0.4.0
+torchvision=0.2.1
+pillow==6.2.1
