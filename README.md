@@ -31,7 +31,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
 ## Prerequisites
 
 ### Environment
-1. If you use Anaconda, you could create an environment with all required packages directly from `req.txt` by using the command:
+1. If you use Anaconda, you could create an environment with all required packages directly from `requirements.txt` by using the command:
     ```
     $ conda create --name <env> --file req.txt
     ```
