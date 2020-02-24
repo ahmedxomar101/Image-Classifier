@@ -31,10 +31,11 @@ def main():
         input_size = model.classifier[0].in_features
 
     # Setting all hyper parameters in a dictionary to ease the dealing.
-    # 102 is the number of the classes so it should be fixed, 
-    # and the other parameters are variables from the user.
+    # All parameters are arguments passed from the user.
+    # in_arg.classes_n is default as 102 for the flowers problem or could
+    # be any other number of classes for any type of other problems.
     hyper_parameters = {'input_size': input_size,
-                        'output_size': 102,
+                        'output_size': in_arg.classes_n,
                         'hidden_layers': in_arg.hidden_units,
                         'drop_p': in_arg.drop_prob,
                         'learn_rate': in_arg.learning_rate,
@@ -61,7 +62,7 @@ def main():
     else:
         ## Build a feed-forward network to create the classifier.
         classifier = nn.Sequential(OrderedDict([
-                          ('output', nn.Linear(input_size, 102)),
+                          ('output', nn.Linear(input_size, in_arg.classes_n)),
                           ('log_softmax', nn.LogSoftmax(dim=1))]))
 
 
