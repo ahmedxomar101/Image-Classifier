@@ -19,6 +19,9 @@ def get_input_args_train():
     # optional arguments
     parser.add_argument('-s','--save_dir', type = str, default = './', 
                         help = 'directory path to save the Trained Model inside it')
+
+    parser.add_argument('-c','--classes_n', type = int, default = 102, 
+    					help = 'Number of Classes which the model would classify -- Default = 102 (in flower case)')
     
     parser.add_argument('-a','--arch', type = str, default = 'vgg19', 
                         help = 'choosing a CNN Model Architecture -- Default = vgg19')
