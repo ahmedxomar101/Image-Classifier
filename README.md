@@ -62,7 +62,7 @@ By the end of this project you'll deal with **a user-friendly command line appli
     pip install cudatoolkit==8.0 -c pytorch
     ```
 ### Data Pre-Processing
-You could work on the [flowers dataset](https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz) or any other one but note that the dataset must be labeled and divided in folders where each folder is named by its class number.
+You could work on the [flowers dataset](https://s3.amazonaws.com/content.udacity-data.com/nd089/flower_data.tar.gz) or any other one but note that the dataset must be labeled and divided in folders where each folder is named by its class **number**.
 
 **Example**
 
@@ -79,7 +79,7 @@ You could work on the [flowers dataset](https://s3.amazonaws.com/content.udacity
     + Dataset of: Validation
 
 ### Label Mapping
-You'll also need to load in a mapping from category label to category name. You can find this in the file cat_to_name.json in case of using flowers dataset. It's a JSON object which you can read in with the json [module](https://www.json.org/json-en.html). This will give you a dictionary mapping the integer encoded categories to the actual names of the flowers.
+You'll also need to load in a mapping from category label (class **number**) to category name. You can find this in the file cat_to_name.json in case of using flowers dataset. It's a JSON object which you can read in with the json [module](https://www.json.org/json-en.html). This will give you a dictionary mapping the integer encoded categories to the actual names of the flowers.
 
 ## Application
 ### Jupyter Notebook
